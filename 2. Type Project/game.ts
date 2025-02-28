@@ -23,7 +23,7 @@ const move = (direction: Direction): void => {
       break;
 
     default:
-      break;
+      throw new Error(`unknown direction: ${direction}`);
   }
 };
 

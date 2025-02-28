@@ -17,9 +17,10 @@ const calculate = (method: Method, num1: number, num2: number) => {
       return num1 % num2;
 
     default:
-      break;
+      throw new Error("unknown error");
   }
 };
+
 console.log(calculate("add", 1, 3)); // 4
 console.log(calculate("substract", 3, 1)); // 2
 console.log(calculate("multiply", 4, 2)); // 8
