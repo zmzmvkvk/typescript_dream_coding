@@ -57,6 +57,7 @@
     }
     constructor(private firstName: string, private lastName: string) {}
   }
+
   const user = new User("steve", "jobs");
   user.age = 6;
 
