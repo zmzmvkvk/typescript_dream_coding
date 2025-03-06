@@ -92,9 +92,4 @@
     console.log("------------------------------");
     machine.makeCoffee(1);
   });
-  // const machine = new CoffeeMachine(23);
-  // const latteMachine = new CaffeLatteMachine(23);
-
-  // const coffee = latteMachine.makeCoffee(1);
-  // console.log(coffee);
 }
