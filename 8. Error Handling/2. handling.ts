@@ -1,6 +1,9 @@
+class TimeoutError extends Error {}
+class OfflineError extends Error {}
+
 class NetworkClient {
   tryConnect(): void {
-    throw new Error("no network!");
+    throw new OfflineError("no network!");
   }
 }
 
@@ -25,6 +28,9 @@ class App {
       this.userService.login();
     } catch (error) {
       // show dialog to user
+      // if (error instanceof OfflineError) {
+      //   throw new Error("Offline Error");
+      // }
     }
   }
 }
