@@ -20,8 +20,8 @@
   };
 
   class Pos1 implements PositionType {
-    // x: number;
-    // y: number;
+    x: number;
+    y: number;
   }
 
   class Pos2 implements PositionInterface {
