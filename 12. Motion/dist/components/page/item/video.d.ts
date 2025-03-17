@@ -1,4 +1,4 @@
 import { BaseComponent } from "../component.js";
-export declare class ImageComponent extends BaseComponent<HTMLElement> {
+export declare class VideoComponent extends BaseComponent<HTMLElement> {
     constructor(title: string, url: string);
 }

@@ -1,5 +1,4 @@
-export declare class PageComponent {
-    private element;
+import { BaseComponent } from "./component.js";
+export declare class PageComponent extends BaseComponent<HTMLUListElement> {
     constructor();
-    attachTo(parent: HTMLElement, position?: InsertPosition): void;
 }
